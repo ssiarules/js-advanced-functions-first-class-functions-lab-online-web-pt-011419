@@ -28,6 +28,6 @@ function fetchSpecifiedDrivers(drivers, fetch) {
   return fetch(drivers)
 }
 
-function selectDifferentDrivers([drivers], returnFirstTwoDrivers()){
+function selectDifferentDrivers(drivers, returnFirstTwoDrivers()){
   return selectDifferentDrivers(returnFirstTwoDrivers())
 }
