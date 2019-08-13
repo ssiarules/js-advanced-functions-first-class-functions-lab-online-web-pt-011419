@@ -16,12 +16,10 @@ function createFareMultiplier(integer) {
   }
 }
 
-const fareDoubler = function (fare) {
-  return createFareMultiplier(2)(fare)
+const fareDoubler = createFareMultiplier(2)
 }
 
-const fareTripler = function (fare) {
-  return createFareMultiplier(3)(fare)
+const fareTripler = createFareMultiplier(3)
 }
 
 function fetchSpecifiedDrivers(drivers, fetch) {
